@@ -2,6 +2,8 @@
 
 Workflow 
 
+```plaintext
+
                  +---------------------------+
                  |       Client Browser      |
                  +---------------------------+
@@ -49,5 +51,8 @@ Workflow
 | from Redis PubSub|                      | Receive Message  |
 | (Goroutine)      |                      | from Server      |
 +------------------+                      +------------------+
+
+
+```
 
 Might be using more technologies to integrate .
